@@ -11,6 +11,11 @@
 		BC0A93F72885EAFD004C7E1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A93F62885EAFD004C7E1F /* ContentView.swift */; };
 		BC0A93F92885EAFF004C7E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0A93F82885EAFF004C7E1F /* Assets.xcassets */; };
 		BC0A93FC2885EAFF004C7E1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0A93FB2885EAFF004C7E1F /* Preview Assets.xcassets */; };
+		BC864F5D2885EB81001E9AB8 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC864F5C2885EB81001E9AB8 /* Activity.swift */; };
+		BC864F5F2885EC4B001E9AB8 /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC864F5E2885EC4B001E9AB8 /* ActivityList.swift */; };
+		BCAC2C432887132E0000EBD3 /* ActivityIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC2C422887132E0000EBD3 /* ActivityIntroView.swift */; };
+		BCAC2C45288718890000EBD3 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC2C44288718890000EBD3 /* ActivityDetailView.swift */; };
+		BCF1AE1F288726AC00B6989F /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF1AE1E288726AC00B6989F /* AddActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		BC0A93F62885EAFD004C7E1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC0A93F82885EAFF004C7E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0A93FB2885EAFF004C7E1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC864F5C2885EB81001E9AB8 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		BC864F5E2885EC4B001E9AB8 /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		BC94DCE2288743C0002ED55F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCAC2C422887132E0000EBD3 /* ActivityIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIntroView.swift; sourceTree = "<group>"; };
+		BCAC2C44288718890000EBD3 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		BCF1AE1E288726AC00B6989F /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +64,14 @@
 			children = (
 				BC0A93F42885EAFD004C7E1F /* MaoTrackApp.swift */,
 				BC0A93F62885EAFD004C7E1F /* ContentView.swift */,
+				BC864F5C2885EB81001E9AB8 /* Activity.swift */,
+				BC864F5E2885EC4B001E9AB8 /* ActivityList.swift */,
 				BC0A93F82885EAFF004C7E1F /* Assets.xcassets */,
 				BC0A93FA2885EAFF004C7E1F /* Preview Content */,
+				BCAC2C422887132E0000EBD3 /* ActivityIntroView.swift */,
+				BCAC2C44288718890000EBD3 /* ActivityDetailView.swift */,
+				BCF1AE1E288726AC00B6989F /* AddActivityView.swift */,
+				BC94DCE2288743C0002ED55F /* README.md */,
 			);
 			path = MaoTrack;
 			sourceTree = "<group>";
@@ -137,7 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAC2C432887132E0000EBD3 /* ActivityIntroView.swift in Sources */,
+				BCF1AE1F288726AC00B6989F /* AddActivityView.swift in Sources */,
+				BC864F5D2885EB81001E9AB8 /* Activity.swift in Sources */,
+				BCAC2C45288718890000EBD3 /* ActivityDetailView.swift in Sources */,
 				BC0A93F72885EAFD004C7E1F /* ContentView.swift in Sources */,
+				BC864F5F2885EC4B001E9AB8 /* ActivityList.swift in Sources */,
 				BC0A93F52885EAFD004C7E1F /* MaoTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
